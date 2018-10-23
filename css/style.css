@@ -1,4 +1,43 @@
-h1 {
-  color: red;
+body {
+  margin: 0;
+}
+
+.a {
+/*text-align: center;*/
+  display: flex;
+  background-color: blue;
+  height: 150px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.a1 {
+  background-color: red;
+  background-image: url("C:\Users\Seriousman\Documents\GitHub\diegoperna.github.io\assets\001.jpg");
   font-family: "Helvetica";
+  padding: auto;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  /*display: inline-block;*/
+}
+
+.b {
+/*text-align: center;*/
+  display: flex;
+  background-color: blue;
+  height: 150px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.c {
+  background-color: red;
+  background-image: url("C:\Users\Seriousman\Documents\GitHub\diegoperna.github.io\assets\001.jpg");
+  font-family: "Helvetica";
+  padding: auto;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  /*display: inline-block;*/
 }
