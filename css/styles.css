@@ -1,0 +1,771 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+p {
+    color:#8f8f8f;
+}
+hr {
+    visibility: hidden;
+    margin-top:0.1rem;
+    margin-bottom:0.1rem;
+}
+/* Headings */
+.big-heading {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 1.5;
+}
+#title .big-heading {
+    font-weight: 700;
+    padding:4%;
+    background-color: rgba(169,169,169,0.5);
+}
+#title {
+    background-image: url(/images/view-london-city-sunset.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+.contact-me-button {
+    background-color: #007bff;
+}
+/* tindog heading */
+/* .big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+} */
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#freepikAttribution {
+    color: #fff;
+    font-size: 75%;
+    margin-left:1%;
+}
+/* #title {
+    background-color: #ff4c68;
+    color: white;
+} */
+/* containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+    /* background-color: #ff4c68; */
+    background-color: #007bff;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 15% 0;
+    margin: 0;
+    border-bottom: solid #fff 0.5px;
+}   
+/* a.design-anchor-class {
+    display: block;
+    position: relative;
+    top: 0;
+    visibility: hidden;
+} */
+/* modal section */
+.hidden-window {
+    display: none;
+  }
+  .close-modal-window {
+    position: absolute;
+    top: 0rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+.modal-window {
+    position: fixed;
+    top: 50%; /*350px;*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 70%;
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    /* background-image: url(/images/easy-1-market-8-page-brochure.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1051;
+}
+.overlay-window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3800px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 1050;
+  }
+/* modal section end */
+
+.mediumDisplay {
+    display: none;
+}
+a.projects-anchor-class {
+    display: block;
+    position: relative;
+    top: 0;
+    visibility: hidden;
+}
+a.hobbies-anchor-class {
+    display: block;
+    position: relative;
+    top: 0;
+    visibility: hidden;
+}
+a.contact-anchor-class {
+    display: block;
+    position: relative;
+    top: 0;
+    visibility: hidden;
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 1.8rem/*2.5rem*/;
+    font-weight: bold;
+}
+.nav-item {
+    padding:0 18px;
+}
+/* .nav-item-mobile {
+    display: none;
+} */
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title {
+    /* background-color: #ff4c68; */
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+  }
+
+  #title .container-fluid {
+    padding: 7% 15% 9%;
+  }
+.profile-pic-col {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title-image {
+    width: 90%;
+    border-radius: 100%;
+    display: block;
+    margin:auto;
+}
+/* .title-image {
+    width:60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+} */
+
+
+
+/* design section */
+.design-section {
+    padding: 0;
+    padding-top: 5%;
+}
+.design-section .container-fluid {
+    padding: 6% 15% 8%;
+}
+.my-work-heading {
+    margin-bottom: 2%;
+}
+.design-section.colored-section .work .text h3 a {
+    color:white;
+}
+.work .text span {
+    color:white;
+}
+.carousel-02-heading {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 1.5;
+    margin-bottom: 1% !important;
+}
+
+/* projects section */
+
+/* #projects-section iframe {
+    height: 750px;
+} */
+
+
+.projects-section {
+    background-color:darkgrey;
+    font-family: "Asap", sans-serif;
+    /* color:#989898; */
+    color:#fff;
+    /* margin:10px; */
+    font-size:16px;
+    padding-top: 1%;
+    padding-bottom: 3%;
+  }
+.projects-section .container {
+    padding: 0;
+}
+.projects-section.colored-section .work .text h3 a {
+    color:white;
+}
+  .projects-section h2 {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 2em;
+      padding-top: 0;
+      color: #fff;
+  }
+  .projects-section  h5 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      text-align: center;
+      padding-top: 8.3%;
+  }
+  
+  .projects-section #demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  .projects-section .green{
+    background-color:#6fb936;
+  }
+          .thumb{
+              margin-bottom: 30px;
+          }
+          
+          .page-top{
+              margin-top:65px;
+          }
+  
+     
+          .projects-section img.zoom {
+      width: 100%;
+      height: 200px;
+      border-radius:5px;
+      object-fit:cover;
+      transition: all .3s ease-out;
+      -webkit-transition: all .3s ease-out;
+      -moz-transition: all .3s ease-out;
+      -o-transition: all .3s ease-out;
+      -ms-transition: all .3s ease-out;
+  }
+  .projects-section img.zoom:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}   
+  .projects-section .transition {
+      -webkit-transform: scale(1.2); 
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+  }
+  .projects-section .modal-header {
+     
+       border-bottom: none;
+  }
+  .projects-section .modal-title {
+          color:#000;
+      }
+      .projects-section .modal-footer{
+        display:none;  
+      }
+  
+      
+
+/* end of projects section */
+
+/* translator section */
+ 
+.translator-section {
+    margin-top:7%;
+    padding: 0;
+}
+.translator-section .container-fluid {
+    padding: 6% 15% 6%;
+}
+.translator-section.colored-section .work .text h3 a {
+    color:white;
+}
+
+/* end of translator section */
+
+/* skills section */
+.card-wrap-skills {
+    background-color: darkgrey;
+}
+/* end of skills section */
+
+/* my hobbies section */
+
+.feature-title {
+    font-size: 1.5rem;
+}
+.feature-box {
+    /* padding: 4.5%; */
+    padding: 2%;
+    transition: all 0.3s ease;
+}
+/* .feature-box:hover {
+    -webkit-box-shadow: 0 0 10px #fff;
+        box-shadow: 0 0 10px grey;
+} */
+.feature-box.hover {
+    -webkit-box-shadow: 0 0 10px #fff;
+        box-shadow: 0 0 10px grey;
+}
+#mySkillsHeading {
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon {
+    /* color:#ef8172; */
+    color: #89b2dc;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    /* color: #ff4c68; */
+    color: #007bff;
+}
+
+/* font awesome icons */
+/* .icon.fa-html5 {
+    color: #ff927a;
+}
+.icon.fa-html5:hover {
+    color: #FF5733;
+}
+.icon.fa-css3-alt {
+    color: #2965f1;
+}
+.icon.fa-css3-alt:hover {
+    color: #264de4;
+}
+.icon.fa-js {
+    color: #f0db4f;
+}
+.icon.fa-js:hover {
+    color: #323330;
+}
+.icon.fa-react {
+    color: #61dbfb;
+}
+.icon.fa-react:hover {
+    color: #3498db;
+}
+.icon.fa-python {
+    color: #ffd43b;
+}
+.icon.fa-python:hover {
+    color: #306998;
+} */
+
+
+/* mfizz icons */
+.mfizz-icon {
+    font-size: 65px;
+    margin-bottom: 1rem;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.icon-html5-alt {
+    color: #ff927a;
+}
+.icon-html5-alt.hover {
+    color: #FF5733;
+}
+.icon-css3-alt {
+    font-size: 60px;
+    color: #2965f1;
+
+}
+.icon-css3-alt.hover {
+    color: #264de4;
+}
+.icon-javascript-alt {
+    font-size: 70px;
+    color: #f0db4f;
+}
+.icon-javascript-alt.hover {
+    color: #323330;
+}
+.icon-mongodb {
+    color: #4db33d;
+}
+.icon-mongodb.hover {
+    color: #3fa037;
+}
+.icon-mysql {
+    color: #00758f;
+}
+
+.icon-mysql.hover {
+    color: #f29111;
+}
+.icon-bootstrap {
+    color: #563d7c;
+    /* color: #602c50; */
+}
+.icon-bootstrap.hover {
+    color: #602c50;
+}
+.icon-python {
+    color: #ffd43b;
+}
+.icon-python.hover {
+    color: #306998;
+}
+
+
+/* testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+/* press */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin:20px 20px 50px;
+}
+/* .carousel-item {
+    padding: 7% 15%;
+} */
+
+/* hobbies section */
+.hobbies-section .container-fluid {
+    padding: 5% 18% 10%;
+}
+.download-button-box {
+    margin-top:1%;
+    /* transition: all 0.3s ease; */
+}
+/* .download-button-box:hover {
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px grey;
+} */
+
+.download-cv-button {
+    margin-top: 1%;
+    width: 100%;
+}
+/* pricing section */
+
+
+  #pricing {
+    padding: 100px;
+
+  }
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+  .pricing-column {
+      padding: 3% 2%;
+  }
+
+  /* end of pricing section */
+
+  /* cta section */
+
+  /* #cta {
+      background-color: #ff4c68;
+      color: #fff;
+      padding: 7% 15%;
+      text-align: center;
+  } */
+  /* .cta-heading {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  } */
+
+  /* footer section */
+  /* #footer {
+      padding:7% 15%;
+      text-align: center;
+  } */
+
+  /* end of cta section */
+
+  /* contact-me section */
+  
+  /* #contact-me .contact-me-form {
+      text-align: left;
+  } */
+
+  #contact-me {
+      background-color: darkgrey;
+  }
+  #contact-me .contact-me-form .form-group {
+      text-align: left;
+      padding-left:30px;
+  }
+  #contact-me .contact-me-form .submit {
+      text-align: center;
+  }
+
+  /* end ofcontact-me section */
+  
+  .social-icon {
+    margin:20px 10px;
+    /* max-width: 9px; */
+  }
+  a#design-anchor {
+    display: block;
+    position: relative;
+    top: 0;
+    visibility: hidden;
+  }
+@media (min-width:1200px) {
+    a.projects-anchor-class {
+        display: block;
+        position: relative;
+        top: 0px;
+        visibility: hidden;
+    }
+    /* a.design-anchor-class {
+        display: block;
+        position: relative;
+        top: -40px;
+        visibility: hidden;
+    } */
+    a.hobbies-anchor-class {
+        display: block;
+        position: relative;
+        top: -40px;
+        visibility: hidden;
+    }
+}
+@media (min-width:992px) and (max-width:1199px) {
+
+}
+@media (min-width:768px) and (max-width:991px) {
+    #title {
+        text-align: center;
+    }
+    /* .navbar-brand {
+        font-size: 2rem;
+    } */
+    .title-image {
+        width: 50%;
+    }
+    /* #projects-section iframe {
+        height: 1020px;
+    } */
+    /* .nav-item-desktop {
+        display: none;
+    }
+    .nav-item-mobile {
+        display: block;
+    } */
+    /* a.design-anchor-class {
+        display: block;
+        position: relative;
+        top: -230px;
+        visibility: hidden;
+    } */
+    a#design-anchor {
+        top: -250px;
+    }
+
+    a.projects-anchor-class {
+        display: block;
+        position: relative;
+        top: -230px;
+        visibility: hidden;
+    }
+    a.hobbies-anchor-class {
+        display: block;
+        position: relative;
+        top: -230px;
+        visibility: hidden;
+    }
+    a.contact-anchor-class {
+        display: block;
+        position: relative;
+        top: -230px;
+        visibility: hidden;
+    }
+
+}
+@media (min-width:576px) and (max-width:767px) {
+    /* #projects-section iframe {
+        height: 2600px;
+    } */
+    /* a.design-anchor-class {
+        display: block;
+        position: relative;
+        top: -240px;
+        visibility: hidden;
+    } */
+    #title {
+        background-image: url(/images/view-london-city-sunset.png);
+    }
+    .projects-section  h5 {
+        padding-top: 3%;
+    }
+    .largeDisplay {
+        display: none;
+    }
+    .mediumDisplay {
+        display: block;
+    }
+    a#design-anchor {
+        top: -250px;
+    }
+    a.projects-anchor-class {
+        display: block;
+        position: relative;
+
+        /* for 2 line project section */
+        /* top: -240px; */
+
+        /* for 4 line project section */
+        top: -240px;
+
+        visibility: hidden;
+    }
+    a.hobbies-anchor-class {
+        display: block;
+        position: relative;
+        top: -240px;
+        visibility: hidden;
+    }
+    a.contact-anchor-class {
+        display: block;
+        position: relative;
+        top: -240px;
+        visibility: hidden;
+    }
+}
+/* @media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .title-image {
+        position:static;
+        transform: rotate(0);
+    }
+} */
+
+@media (min-width:376px) and (max-width:575px) {
+    /* a.design-anchor-class {
+        display: block;
+        position: relative;
+        top: -253px;
+        visibility: hidden;
+    } */
+    a#design-anchor {
+        top: -250px;
+    }
+    .projects-section img.zoom {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    a.projects-anchor-class {
+        display: block;
+        position: relative;
+        top: -253px;
+        visibility: hidden;
+    }
+    a.hobbies-anchor-class {
+        display: block;
+        position: relative;
+        top: -253px;
+        visibility: hidden;
+    }
+    a.contact-anchor-class {
+        display: block;
+        position: relative;
+        top: -253px;
+        visibility: hidden;
+    }
+    /* #projects-section iframe {
+        height: 1500px;
+    } */
+    .modal-window {
+        /* height: 70%; */
+        width: 90%;
+    }
+}
+
+@media (min-width:0px) and (max-width:375px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .big-heading {
+        font-size: 1.75em;
+    }
+    .modal-window {
+        /* height: 70%; */
+        width: 90%;
+    }
+    /* #projects-section iframe {
+        height: 2050px;
+    } */
+}
